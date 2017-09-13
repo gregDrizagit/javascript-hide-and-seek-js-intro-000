@@ -15,7 +15,7 @@ function nestedTarget()
 
 function increaseRankBy(n)
 {
-  const lis = document.getElementById('#ranked-list')[]
+  const lis = document.getElementById('ranked-list')
 
   for(let i = 0; i < lis.length; i++)
   {
