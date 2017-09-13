@@ -32,6 +32,9 @@ function deepestChild()
   //`div#grand-node` has only one node at each level — for this lab, you can solve
   //for that case, and not worry about a case where there are sibling nodes.
 
+  //**HINT**: Remember learning about breadth-first search? A similar technique
+  //might come in handy here.
+
 
 
 }
