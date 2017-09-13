@@ -16,7 +16,7 @@ function nestedTarget()
 
 function increaseRankBy(n)
 {
-  const getclass = document.querySelector('ul.ranked-list');
+  const getclass = document.querySelector('ul.ranked-list')[0];
   var lis1 = getclass.getElementsByTagName('li');
   //var printThis = lis1.length;
 
