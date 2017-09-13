@@ -26,11 +26,11 @@ function increaseRankBy(n)
 
   }
 
-  for(let i = 0; i < lis2.length; i++)
-  {
-    lis2[i].innerHTML = (i + 1).toString();
-
-  }
+  // for(let i = 0; i < lis2.length; i++)
+  // {
+  //   lis2[i].innerHTML = (i + 1).toString();
+  // 
+  // }
 
 }
 
