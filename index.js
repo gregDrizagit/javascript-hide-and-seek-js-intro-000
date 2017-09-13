@@ -19,6 +19,7 @@ function increaseRankBy(n)
   const lis1 = document.querySelector('ul.ranked-list');
   //const lis2 = document.querySelector('ul.ranked-list')[1];
   var printThis = lis1.length;
+  
   for(let i = 0; i < lis1.length; i++)
   {
     lis1[i].innerHTML = (i + 1).toString();
@@ -28,7 +29,7 @@ function increaseRankBy(n)
   for(let i = 0; i < lis2.length; i++)
   {
     lis2[i].innerHTML = (i + 1).toString();
-  
+
   }
 
 }
