@@ -1,3 +1,4 @@
+var printThis; 
 function getFirstSelector(selector)
 {
 
@@ -50,3 +51,4 @@ function deepestChild()
 
 
 }
+console.log(printThis);
