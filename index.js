@@ -22,8 +22,8 @@ function increaseRankBy(n)
 
   for(let i = 0; i < lis1.length; i++)
   {
-    var number = lis1[i].innerHTML;
-
+    var number = parseInt(lis1[i].innerHTML);
+    
   }
 
   // for(let i = 0; i < lis2.length; i++)
