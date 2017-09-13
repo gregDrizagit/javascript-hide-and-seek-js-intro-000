@@ -22,7 +22,7 @@ function increaseRankBy(n)
 
   for(let i = 0; i < lis1.length; i++)
   {
-    lis1[i].innerHTML = (i + 1).toString();
+    lis1[i].innerHTML += n;
 
   }
 
