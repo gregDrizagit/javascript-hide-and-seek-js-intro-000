@@ -17,7 +17,7 @@ function increaseRankBy(n)
 {
 
 
-  
+
 }
 
 function deepestChild()
@@ -27,6 +27,11 @@ function deepestChild()
   //`querySelector()` and `querySelectorAll()` on them. This is challenging to
   //implement correctly, but not beyond your ability!)
 
+  //Your solution for `deepestChild()` does not need to be totally
+  //generic; we don't expect it to work in every case. For example, we know that
+  //`div#grand-node` has only one node at each level — for this lab, you can solve
+  //for that case, and not worry about a case where there are sibling nodes.
 
-  
+
+
 }
