@@ -1,4 +1,4 @@
-var printThis; 
+var printThis;
 function getFirstSelector(selector)
 {
 
