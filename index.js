@@ -14,32 +14,27 @@ function nestedTarget()
 
 }
 
+
+
 function increaseRankBy(n)
 {
-  var rankedListArray = document.getElementsByClassName('ranked-list');
+  var ranked = document.getElementsByClassName('ranked-list');
 
-  function increaseRankBy(n)
+  for(var o = 0; o < ranked.length; o++)
   {
-    var ranked = document.getElementsByClassName('ranked-list');
+    var elements = ranked[o].querySelectorAll('li');
 
-    for(var o = 0; o < ranked.length; o++)
+    for(var w = 0; w < elements.length; w++)
     {
-      var elements = ranked[o].querySelectorAll('li');
-
-      for(var w = 0; w < elements.length; w++)
-      {
-        var number = parseInt(elements[w].innerHTML);
-        //console.log(number);
-        
-        number += n; 
-        
-        elements[w].innerHTML = number; 
-        console.log(number);
+      var number = parseInt(elements[w].innerHTML);
+      number += n;
+      elements[w].innerHTML = number;
+      console.log(number);
       }
     }
-  }
-
 }
+
+
 
 function deepestChild()
 {
