@@ -18,19 +18,26 @@ function increaseRankBy(n)
 {
   var rankedListArray = document.getElementsByClassName('ranked-list');
 
+  function increaseRankBy(n)
+  {
+    var ranked = document.getElementsByClassName('ranked-list');
 
-  // for(let i = 0; i < lis1.length; i++)
-  // {
-  //   var number = parseInt(lis1[i].innerHTML);
-  //   number += n;
-  //   lis1[i].innerHTML = number.toString();
-  // }
+    for(var o = 0; o < ranked.length; o++)
+    {
+      var elements = ranked[o].querySelectorAll('li');
 
-  // for(let i = 0; i < lis2.length; i++)
-  // {
-  //   lis2[i].innerHTML = (i + 1).toString();
-  //
-  // }
+      for(var w = 0; w < elements.length; w++)
+      {
+        var number = parseInt(elements[w].innerHTML);
+        //console.log(number);
+        
+        number += n; 
+        
+        elements[w].innerHTML = number; 
+        console.log(number);
+      }
+    }
+  }
 
 }
 
