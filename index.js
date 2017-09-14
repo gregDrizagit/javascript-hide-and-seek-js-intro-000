@@ -54,7 +54,7 @@ function deepestChild()
   var grandNode = document.querySelector('#grand-node');
 
   var divArray = grandNode.querySelectorAll('div');
-  
+
   return divArray[3];
 
 }
