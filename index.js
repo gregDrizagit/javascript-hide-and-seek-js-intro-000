@@ -55,7 +55,7 @@ function deepestChild()
 
   var divArray = grandNode.querySelectorAll('div');
   
-  return divArray[3].innerHTML;
+  return divArray[3];
 
 }
 
@@ -68,7 +68,7 @@ function find(array, criteriaFn) {
   // we haven't looked at yet
   let current = array
   let next = []
- 
+
   // hey, a `while` loop! this loop will only
   // trigger if `current` is truthy — so when
   // we exhaust `next` and, below, attempt to
@@ -81,7 +81,7 @@ function find(array, criteriaFn) {
     if (criteriaFn(current)) {
       return current
     }
- 
+
     // if `current` is an array, we want to push all of
     // its elements (which might be arrays) onto `next`
     if (Array.isArray(current)) {
@@ -89,7 +89,7 @@ function find(array, criteriaFn) {
         next.push(current[i])
       }
     }
- 
+
     // after pushing any children (if there
     // are any) of `current` onto `next`, we want to take
     // the first element of `next` and make it the
@@ -97,7 +97,7 @@ function find(array, criteriaFn) {
     // loop
     current = next.shift()
   }
- 
+
   // if we haven't
   return null
 }
